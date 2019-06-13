@@ -1,9 +1,3 @@
-[submodule "themes/minimo"]
-path = themes/minimo
-url = https://github.com/MunifTanjim/minimo
-[submodule "canvas/themes/hugo-coder"]
-	path = canvas/themes/hugo-coder
-	url = https://github.com/luizdepra/hugo-coder.git
-[submodule "myblog/themes/hugo-coder"]
-	path = myblog/themes/hugo-coder
-	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "themes/hugo-coder"]
+  path = themes/hugo-coder
+  url =  https://github.com/luizdepra/hugo-coder.git
