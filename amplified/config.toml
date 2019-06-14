@@ -92,9 +92,9 @@ disqusShortname = "prvnmali"
         url = "/posts/"
 
         [[languages.en.menu.main]]
-        name = "Projects"
+        name = "SimpleAI"
         weight = 3
-        url = "/projects/"
+        url = "/SimpleAI/"
 
         [[languages.en.menu.main]]
         name = "Contact me"
