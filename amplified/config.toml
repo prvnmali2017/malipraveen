@@ -1,4 +1,4 @@
-baseurl = "https://www.malipraveen.net"
+baseurl = "https://malipraveen.netlify.com/"
 title = "johndoe"
 
 theme = "hugo-coder"
