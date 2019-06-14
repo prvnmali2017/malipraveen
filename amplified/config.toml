@@ -101,6 +101,12 @@ disqusShortname = "prvnmali"
         weight = 5
         url = "/contact/"
 
+        [[languages.en.menu.main]]
+        name = "Resume"
+        weight = 5
+        url = "/resume/"
+
+
 
     [languages.pt-br]
         languagename = "Português"
