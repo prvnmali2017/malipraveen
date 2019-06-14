@@ -1,5 +1,5 @@
 baseurl = "https://www.malipraveen.net/"
-title = "johndoe"
+title = "Praveen Mali"
 
 theme = "hugo-coder"
 
@@ -13,15 +13,15 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "prvnmali"
 
 [params]
-    author = "John Doe"
-    description = "John Doe's personal website"
-    keywords = "blog,developer,personal"
-    info = "Full Stack DevOps and Magician"
+    author = "Praveen Mali"
+    description = "Praveen Mali's website and blogging platform"
+    keywords = "blog,developer,personal,devops,"
+    info = "DevOps and Kubernetes Guy"
     avatarurl = "images/avatar.jpg"
-    footercontent = "Enter a text here."
+    footercontent = "Maintained by Praveen Mali"
 
     dateformat = "January 2, 2006"
 
