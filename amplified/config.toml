@@ -108,7 +108,7 @@ disqusShortname = "prvnmali"
 
 
 
-    [languages.pt-br]
+#    [languages.pt-br]
         languagename = "Português"
         title = "João Ninguém"
 
