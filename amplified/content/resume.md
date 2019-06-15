@@ -3,4 +3,4 @@ title = "Resume"
 slug = "Resume"
 +++
 
-IN progress
+GET LOST -----
