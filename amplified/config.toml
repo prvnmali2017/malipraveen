@@ -20,7 +20,7 @@ disqusShortname = "prvnmali"
     description = "Praveen Mali's website and blogging platform"
     keywords = "blog,developer,personal,devops,"
     info = "DevOps and Kubernetes Guy"
-    avatarurl = "images/avatar.jpg"
+    avatarurl = "images/pic/avatar.jpg"
     footercontent = "Maintained by Praveen Mali"
 
     dateformat = "January 2, 2006"
