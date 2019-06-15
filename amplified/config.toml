@@ -1,5 +1,5 @@
 baseurl = "https://www.malipraveen.net/"
-title = "Miles to go 1.0"
+title = "Technology, Imagery and Miscellany"
 
 theme = "hugo-coder"
 
@@ -75,6 +75,11 @@ disqusShortname = "prvnmali"
     icon = "fab fa-medium"
     weight = 5
     url = "https://medium.com/@praveenmali"
+[[params.social]]
+    name = "Strava"
+    icon = "fab fa-strava"
+    weight = 5
+    url = "https://www.strava.com/athletes/31749139"
 
 
 [languages]
