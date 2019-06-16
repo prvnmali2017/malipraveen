@@ -30,3 +30,6 @@ Feel free to take print if necessary.
 
 Minikube
 katacoda kubernetes playground
+
+
+<script id="dsq-count-scr" src="//malipraveen-net.disqus.com/count.js" async></script>
