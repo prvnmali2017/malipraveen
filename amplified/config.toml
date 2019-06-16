@@ -92,7 +92,7 @@ disqusShortname = "prvnmali"
         url = "/about/"
 
         [[languages.en.menu.main]]
-        name = "posts"
+        name = "Posts"
         weight = 2
         url = "/posts/"
 
@@ -115,8 +115,6 @@ disqusShortname = "prvnmali"
         name = "miscellany"
         weight = 6
         url = "/miscellany/"
-
-
 
 #    [languages.pt-br]
         languagename = "Português"
