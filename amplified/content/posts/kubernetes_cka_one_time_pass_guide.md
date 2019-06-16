@@ -21,10 +21,10 @@ Feel free to take print if necessary.
 3. Clusters: 6
 
 **Important Documents:**
-+[Read Candidate book] (https://www.cncf.io/certification/candidate-handbook)
-+[Read Exam Tips] (https://www.cncf.io/certification/tips    )
-+[Syllabus] (https://github.com/walidshaari/Kubernetes-Certified-Administrator)
-+[Kubectl Imperative Commands] (https://kubernetes.io/docs/concepts/overview/object-management-kubectl/imperative-command/)
+* [Read Candidate book] (https://www.cncf.io/certification/candidate-handbook)
+* [Read Exam Tips] (https://www.cncf.io/certification/tips    )
+* [Syllabus] (https://github.com/walidshaari/Kubernetes-Certified-Administrator)
+* [Kubectl Imperative Commands] (https://kubernetes.io/docs/concepts/overview/object-management-kubectl/imperative-command/)
 
 ## Bring your Own Cluster for practicings
 1. Minikube
