@@ -20,7 +20,8 @@ Feel free to take print if necessary.
 2. Questions: 24
 3. Clusters: 6
 
-Read [Candidate book] https://www.cncf.io/certification/candidate-handbook
-Read [Exam Tips] https://suraj.pro/post/journey-to-cka/ 
+[Read Candidate book] (https://www.cncf.io/certification/candidate-handbook)
+
+[Read Exam Tips] (https://suraj.pro/post/journey-to-cka/)
 
 
