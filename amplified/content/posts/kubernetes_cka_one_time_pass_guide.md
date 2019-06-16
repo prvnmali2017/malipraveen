@@ -26,7 +26,6 @@ Feel free to take print if necessary.
 +[Syllabus] (https://github.com/walidshaari/Kubernetes-Certified-Administrator)
 +[Kubectl Imperative Commands] (https://kubernetes.io/docs/concepts/overview/object-management-kubectl/imperative-command/)
 
-## Bring your Own Cluster for practicing
-
+## Bring your Own Cluster for practicings
 1. Minikube
 2. Katacoda kubernetes playground

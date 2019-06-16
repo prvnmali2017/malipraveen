@@ -112,9 +112,9 @@ disqusShortname = "@praveenmali"
         url = "/resume/"
 
         [[languages.en.menu.main]]
-        name = "miscellany"
+        name = "Miscellany"
         weight = 6
-        url = "/miscellany/"
+        url = "/Miscellany/"
 
 #    [languages.pt-br]
         languagename = "Português"
