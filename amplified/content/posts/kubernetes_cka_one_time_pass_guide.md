@@ -22,7 +22,7 @@ Feel free to take print if necessary.
 2. Questions: 24
 3. Clusters: 6
 
-** Important Documents: **
+**Important Documents:**
 + [Read Candidate book] (https://www.cncf.io/certification/candidate-handbook)
 + [Read Exam Tips] (https://www.cncf.io/certification/tips    )
 + [Syllabus] (https://github.com/walidshaari/Kubernetes-Certified-Administrator)
