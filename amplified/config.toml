@@ -78,7 +78,7 @@ disqusShortname = "@praveenmali"
 [[params.social]]
     name = "Strava"
     icon = "fab fa-strava"
-    weight = 5
+    weight = 6
     url = "https://www.strava.com/athletes/31749139"
 
 
