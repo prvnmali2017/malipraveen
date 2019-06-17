@@ -14,6 +14,7 @@ series = ["Theme", "Hugo"]
 ## Installation (MAC)
 
 1. Install kubectl
+
 ```
 curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl
 chmod +x ./kubectl
@@ -33,4 +34,3 @@ Server Version: version.Info{Major:"1", Minor:"10", GitVersion:"v1.10.11", GitCo
 echo 'source <(kubectl completion bash)' >>~/.bashrc
 kubectl completion bash >/usr/local/etc/bash_completion.d/kubectl
 ```
-
