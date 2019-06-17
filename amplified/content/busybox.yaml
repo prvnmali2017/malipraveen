@@ -1,0 +1,20 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  creationTimestamp: null
+  labels:
+    run: buysbox
+  name: buysbox
+spec:
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        run: buysbox
+    spec:
+      containers:
+      - image: busybox:latest
+        name: buysbox
+        resources: {}
+      restartPolicy: OnFailure
+status: {}
