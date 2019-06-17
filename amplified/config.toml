@@ -29,7 +29,7 @@ disqusShortname = "@praveenmali"
     hideCopyright = false
 
     # Git Commit in Footer, uncomment the line below to enable it.
-    #commit = "https://github.com/luizdepra/hugo-coder/tree/"
+    commit = "https://github.com/luizdepra/hugo-coder/tree/"
 
     rtl = false
 
@@ -115,36 +115,3 @@ disqusShortname = "@praveenmali"
         name = "Miscellany"
         weight = 6
         url = "/Miscellany/"
-
-#    [languages.pt-br]
-        languagename = "Português"
-        title = "João Ninguém"
-
-        [languages.pt-br.params]
-            author = "João Ninguém"
-            info = "Full Stack DevOps e Mágico"
-            description = "Sítio pessoal de João Ninguém"
-            keywords = "blog,desenvolvedor,pessoal"
-            footercontent = "Coloque algum texto aqui."
-
-        [languages.pt-br.menu]
-
-            [[languages.pt-br.menu.main]]
-            name = "Sobre"
-            weight = 1
-            url = "/pt-br/about/"
-
-            [[languages.pt-br.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "/pt-br/posts/"
-
-            [[languages.pt-br.menu.main]]
-            name = "Projetos"
-            weight = 3
-            url = "/pt-br/projects/"
-
-            [[languages.pt-br.menu.main]]
-            name = "Contato"
-            weight = 5
-            url = "/pt-br/contact/"
