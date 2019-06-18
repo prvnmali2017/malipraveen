@@ -1,7 +1,7 @@
 +++ 
 date = "2019-06-16"
-title = "Quick Kubernetes Single CKA Guide"
-slug = "Quick Kubernetes Single CKA Guide" 
+title = "CKA Exam Details and Links"
+slug = "CKA Exam Details and Links" 
 tags = [
     "CKA",
     "Kubernetes",
@@ -26,6 +26,18 @@ Feel free to take print if necessary.
 3. [Syllabus] (https://github.com/walidshaari/Kubernetes-Certified-Administrator)
 4. [Kubectl Imperative Commands] (https://kubernetes.io/docs/concepts/overview/object-management-kubectl/imperative-command/)
 
-## Bring your Own Cluster for practicings
+### Bring your Own Cluster for practicings
 1. Minikube
 2. Katacoda kubernetes playground
+
+
+### Curriculum
+1. https://github.com/cncf/curriculum
+
+### Important Links
+1. https://suraj.io/post/road-to-cka/
+2. https://suraj.pro/post/journey-to-cka/
+3. https://blog.openebs.io/becoming-a-kubernaut-top-learnings-in-my-journey-of-becoming-a-cka-a2042b68d7df
+4. https://medium.zenika.com/kubernetes-certification-everything-you-need-to-know-to-pass-the-cka-c7ad831dd1ef
+5. https://github.com/dgkanatsios/CKAD-exercises
+6. https://github.com/kubernauts/cka-practice-environment
