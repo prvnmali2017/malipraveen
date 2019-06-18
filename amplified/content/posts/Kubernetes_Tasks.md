@@ -45,7 +45,6 @@ $minikube start
 ### Configure Pods and Clusters
 
 #### Assign Memory Resources to Containers and Pods on minikube cluster
-
 1. Enabling Metrics Server on Minikube
 ```
 $minikube addons enable metrics-server
@@ -62,10 +61,10 @@ JOB:
 kubectl run buysbox --image=busybox:latest --restart=OnFailure  --dry-run -o yaml > busybox.yaml
 ```
 Replace with appropriate shorthand generators.  
-a] Deployment: Don’t specify the flag
-b] Pod : — restart=Never
-c] Job: — restart=OnFailure
-d] CronJob: — restart=OnFailure — schedule=<some cron expression>
+a. Deployment: Don’t specify the flag
+b. Pod : — restart=Never
+c. Job: — restart=OnFailure
+d. CronJob: — restart=OnFailure — schedule=<some cron expression>
 
 2. Assign Memory Resources to Containers and Pods
 Create the namespace
