@@ -19,6 +19,8 @@ A set of notes, practice test references to prepare for Certified Kubernetes App
 4. https://medium.com/@MrMcMuffins/ckad-exam-failure-748f978a325a
 5. https://www.cloudreach.com/blog/study-guide-certified-kubernetes-application-developer-ckad-exam/
 6. https://medium.com/chotot/tips-tricks-to-pass-certified-kubernetes-application-developer-ckad-exam-67c9e1b32e6e
+7. https://github.com/AmundsenJunior/yet-another-ckad-training-resource
+8. https://github.com/nikhilagrawal577/ckad-notes
 	
 ## Course :
 1. https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/
