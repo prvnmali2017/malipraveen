@@ -22,3 +22,5 @@ series = ["Theme", "Hugo"]
 4. <https://medium.zenika.com/kubernetes-certification-everything-you-need-to-know-to-pass-the-cka-c7ad831dd1ef>
 5. <https://github.com/dgkanatsios/CKAD-exercises>
 6. <https://github.com/kubernauts/cka-practice-environment>
+7. <https://medium.com/faun/how-to-pass-certified-kubernetes-administrator-cka-exam-on-first-attempt-36c0ceb4c9e>
+8. <https://vmtechie.blog/2019/01/12/how-to-prepare-for-certified-kubernetes-administration-cka-exam/> 
