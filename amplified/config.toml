@@ -92,14 +92,14 @@ disqusShortname = "@praveenmali"
         url = "/about/"
 
         [[languages.en.menu.main]]
-        name = "Posts"
+        name = "Recent Posts"
         weight = 2
         url = "/posts/"
 
         [[languages.en.menu.main]]
-        name = "SimpleAI"
+        name = "SimpleDrones"
         weight = 3
-        url = "/SimpleAI/"
+        url = "/SimpleDrones/"
 
         [[languages.en.menu.main]]
         name = "Contact me"
