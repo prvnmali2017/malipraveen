@@ -1,7 +1,7 @@
 +++
 date = "2019-06-26"
-title = "Elastic Search Logging Workshop "
-slug = "Elastic Search Logging Workshop"
+title = "Elasticsearch, Kibana, Beats & Logstash"
+slug = "Elasticsearch, Kibana, Beats & Logstash"
 tags = [
     "ElasticSearch",
     "Logging",
@@ -10,8 +10,6 @@ tags = [
 categories = []
 series = ["Theme", "Hugo"]
 +++
-
-## Elasticsearch, Kibana, Beats & Logstash.
 
 ## Topics And Labs covered under 7 sections 
 
