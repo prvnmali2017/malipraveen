@@ -8,7 +8,8 @@ tags = [
     "Cloud"
 ]
 categories = []
-
+series = ["Theme", "Hugo"]
++++
 
 ## Elasticsearch, Kibana, Beats & Logstash.
 
