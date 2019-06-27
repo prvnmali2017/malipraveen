@@ -97,9 +97,9 @@ disqusShortname = "@praveenmali"
         url = "/posts/"
 
         [[languages.en.menu.main]]
-        name = "SimpleDrones"
+        name = "Talks & Presentations"
         weight = 3
-        url = "/SimpleDrones/"
+        url = "/Talks/"
 
         [[languages.en.menu.main]]
         name = "Contact me"
