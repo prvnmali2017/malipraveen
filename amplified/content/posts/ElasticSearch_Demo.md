@@ -21,4 +21,4 @@ series = ["Theme", "Hugo"]
 * Section 6:  Machine Learning
 * Section 7:  Conclusion
 
-<img src="images\the.pdf" alt="PDF"  width="4200" height="4200">
+<img src="../images/the.pdf" alt="PDF"  width="4200" height="4200">
