@@ -10,8 +10,8 @@ categories = []
 series = []
 +++
 
-### Running the docker container or using the steps to get awscli quickly 
-
+##### Running the docker container or using the steps to get awscli quickly 
+###### Docker Image
 
 ```FROM alpine:3.7
 
