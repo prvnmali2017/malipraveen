@@ -12,8 +12,10 @@ series = ["Theme", "Hugo"]
 +++
 
 ## Topics And Labs covered under 7 sections 
+### Labs are practiced on Elastic Search Cluster
 
-* Section 1:  Build an Elastic Cluster in ESS
+* Section 1:  Build an Elastic Cluster in ESS 
+  <iframe src="https://drive.google.com/file/d/1uOoL7gOxI3If8CucHSyJek7lUShIfPvp/preview" width="640" height="480"></iframe>
 * Section 2:  Setup Data Feed with Metricbeat/Filebeat
 * Section 3:  Infrastructure View, Monitoring View, OOTB Dashboards in Kibana
 * Section 4:  Security
@@ -21,4 +23,3 @@ series = ["Theme", "Hugo"]
 * Section 6:  Machine Learning
 * Section 7:  Conclusion
 
-<iframe src="https://drive.google.com/file/d/1uOoL7gOxI3If8CucHSyJek7lUShIfPvp/preview" width="640" height="480"></iframe>
