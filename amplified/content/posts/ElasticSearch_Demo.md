@@ -25,22 +25,22 @@ series = ["Theme", "Hugo"]
 
 ### Labs are practiced on Elastic Search Cluster
 
- #### Build an Elastic Cluster in ESS 
+#### Build an Elastic Cluster in ESS 
   <iframe src="https://drive.google.com/file/d/1uOoL7gOxI3If8CucHSyJek7lUShIfPvp/preview" width="900" height="420"></iframe>
 
- #### Setup Data Feed with Metricbeat/Filebeat
+#### Setup Data Feed with Metricbeat/Filebeat
   <iframe src="https://drive.google.com/file/d/15JQ3FztDgCKa9321jNutFqlt-ts7fjeK/preview" width="900" height="420"></iframe>
 
- #### Infrastructure View, Monitoring View, OOTB Dashboards in Kibana
+#### Infrastructure View, Monitoring View, OOTB Dashboards in Kibana
   <iframe src="https://drive.google.com/file/d/1Bw5BQAlJLfjc67uMwLskq85DZ1Ms5qbR/preview" width="900" height="420"></iframe>
 
- #### Security
-  <iframe src="https://drive.google.com/file/d/12gmri46S5kugxq9Y9GeCaYHL58IROySY/preview" width="640" height="480"></iframe>
+#### Security
+  <iframe src="https://drive.google.com/file/d/12gmri46S5kugxq9Y9GeCaYHL58IROySY/preview" width="900" height="420"></iframe>
 
- ####Machine Learning and Alerting
-  <iframe src="https://drive.google.com/file/d/1hlbXruEcMwfzYGoOxa7LWjp5MrowyXko/preview" width="640" height="480"></iframe>
+#### Machine Learning and Alerting
+  <iframe src="https://drive.google.com/file/d/1hlbXruEcMwfzYGoOxa7LWjp5MrowyXko/preview" width="900" height="420"></iframe>
  
- ####APM
-  <iframe src="https://drive.google.com/file/d/1H8sTqilfX6aXT7S98C3zI9SjB9Fih7Zd/preview" width="640" height="480"></iframe>
+#### APM
+  <iframe src="https://drive.google.com/file/d/1H8sTqilfX6aXT7S98C3zI9SjB9Fih7Zd/preview" width="900" height="420"></iframe>
 
 * ####Example Lab Files (Zip)
