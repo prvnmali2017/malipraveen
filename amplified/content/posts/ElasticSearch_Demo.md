@@ -21,4 +21,4 @@ series = ["Theme", "Hugo"]
 * Section 6:  Machine Learning
 * Section 7:  Conclusion
 
-<img src="../images/the.pdf" alt="PDF"  width="4200" height="4200">
+<embed src="the.pdf" width="500" height="375" type="application/pdf">
