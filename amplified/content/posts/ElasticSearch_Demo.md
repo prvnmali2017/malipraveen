@@ -11,15 +11,14 @@ categories = []
 series = ["Theme", "Hugo"]
 +++
 
-## Topics And Labs covered under 7 sections 
+## Topics And Labs covered under 6 sections 
 
 * Section 1:  Build an Elastic Cluster in ESS 
 * Section 2:  Setup Data Feed with Metricbeat/Filebeat
 * Section 3:  Infrastructure View, Monitoring View, OOTB Dashboards in Kibana
 * Section 4:  Security
-* Section 5:  Alerting
-* Section 6:  Machine Learning
-* Section 7:  Conclusion
+* Section 5:  Machine Learning and Alerting
+* Section 6:  APM
 
 
 
@@ -36,10 +35,20 @@ series = ["Theme", "Hugo"]
   <iframe src="https://drive.google.com/file/d/1Bw5BQAlJLfjc67uMwLskq85DZ1Ms5qbR/preview" width="900" height="420"></iframe>
 
 * ####Security
+  <iframe src="https://drive.google.com/file/d/12gmri46S5kugxq9Y9GeCaYHL58IROySY/preview" width="640" height="480"></iframe>
 
-* ####Alerting
+* ####Machine Learning and Alerting
+  <iframe src="https://drive.google.com/file/d/1hlbXruEcMwfzYGoOxa7LWjp5MrowyXko/preview" width="640" height="480"></iframe>
+ 
 
-* ####Machine Learning
+* ####APM
+  <iframe src="https://drive.google.com/file/d/1H8sTqilfX6aXT7S98C3zI9SjB9Fih7Zd/preview" width="640" height="480"></iframe>
 
-* ####Conclusion
+* ####Example Lab Files (Zip)
 
+
+    1. weather (2-3 months)
+    2. Environment
+    3. Not lonely feeling
+    4. positive environment
+    5. FOcussed
