@@ -21,4 +21,4 @@ series = ["Theme", "Hugo"]
 * Section 6:  Machine Learning
 * Section 7:  Conclusion
 
-<embed src="/content/the.pdf" width="500" height="375" type="application/pdf">
+<embed src="https://drive.google.com/file/d/1uOoL7gOxI3If8CucHSyJek7lUShIfPvp/view" width="500" height="375" type="application/pdf">
