@@ -10,7 +10,7 @@ tags = [
 categories = []
 series = []
 +++
-<img src="images/toolnetes-logo.jpeg" align="right" width="300" heigh="auto">
+<img src="pic/images/toolnetes-logo.jpeg" align="right" width="300" heigh="auto">
 
 Collection of miscellaneous [helper tools](#-tools) and [must-read articles](#-articles). 
 
