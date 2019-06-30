@@ -1,6 +1,6 @@
 +++
 date = "2019-06-30"
-title = "🔧Collection of miscellaneous Kubernetes tools and articles"
+title = "Collection of miscellaneous Kubernetes tools and articles"
 slug = ""
 tags = [
     "Kubernetes",
@@ -12,11 +12,9 @@ series = []
 +++
 <img src="images/toolnetes-logo.jpeg" align="right" width="300" heigh="auto">
 
-# toolnetes
+Collection of miscellaneous [helper tools](#-tools) and [must-read articles](#-articles). 
 
-Collection of miscellaneous [helper tools](#-tools), [must-read articles](#-articles). 
-
-## 🔧 Tools
+## 🔧 Kubernetes Tools
 * [Kustomize](https://kubernetes.io/blog/2018/05/29/introducing-kustomize-template-free-configuration-customization-for-kubernetes/) (now part of kubectl since 1.14)
 * [kubectx + kubens](https://github.com/ahmetb/kubectx) - switch between clusters and namespaces
 * [kube-fzf](https://github.com/arunvelsriram/kube-fzf) - findpod/tailpod/execpod/describepod with [fzf](https://github.com/junegunn/fzf)
