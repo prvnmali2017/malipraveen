@@ -1,7 +1,7 @@
 +++
 date = "2019-06-30"
-title = "🔧 Collection of miscellaneous Kubernetes tools and articles"
-slug = "🔧 Collection of miscellaneous Kubernetes tools and articles"
+title = "🔧Collection of miscellaneous Kubernetes tools and articles"
+slug = ""
 tags = [
     "Kubernetes",
     "tools",
@@ -10,15 +10,11 @@ tags = [
 categories = []
 series = []
 +++
-
-🔧 Collection of miscellaneous Kubernetes tools and articles.
-<img src="assets/toolnetes-logo.jpeg" align="right" width="300" heigh="auto">
+<img src="images/toolnetes-logo.jpeg" align="right" width="300" heigh="auto">
 
 # toolnetes
 
 Collection of miscellaneous [helper tools](#-tools), [must-read articles](#-articles). 
-
-<br><br><br><br>
 
 ## 🔧 Tools
 * [Kustomize](https://kubernetes.io/blog/2018/05/29/introducing-kustomize-template-free-configuration-customization-for-kubernetes/) (now part of kubectl since 1.14)
