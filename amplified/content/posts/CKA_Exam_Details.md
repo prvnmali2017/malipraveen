@@ -8,7 +8,7 @@ tags = [
     "Kube"
 ]
 categories = []
-series = ["Theme", "Hugo"]
+series = []
 +++
 
 ## Introduction

@@ -1,14 +1,14 @@
 +++
 date = "2019-06-17"
-title = "Kubernetes Tasks Practice Quick guide"
-slug = "Kubernetes Tasks Practice Quick guide"
+title = "CKA Practice Quick guide"
+slug = "CKA Practice Quick guide"
 tags = [
     "CKA",
     "Kubernetes",
     "Kube"
 ]
 categories = []
-series = ["Theme", "Hugo"]
+series = []
 +++
 
 
