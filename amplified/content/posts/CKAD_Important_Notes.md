@@ -1,7 +1,7 @@
 +++
 date = "2019-06-18"
-title = "CKAD Important Links"
-slug = "CKAD Important Links"
+title = "CKAD Exam Details and Links"
+slug = "CKAD Exam Details and Links"
 tags = [
     "CKAD",
     "Kubernetes",
