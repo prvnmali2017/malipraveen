@@ -64,21 +64,21 @@ kubectl run buysbox --image=busybox:latest --restart=OnFailure  --dry-run -o yam
 Replace with appropriate shorthand generators.  
 
 * Deployment: Don’t specify the flag
-
 * Pod : — restart=Never
-
 * Job: — restart=OnFailure
-
 * CronJob: — restart=OnFailure — schedule=<some cron expression>
 
-2. **Assign Memory Resources to Containers and Pods**
+2. **Assign Memory and CPU Resources to Containers and Pods**
 
-```
+Assign Memory Resources to Containers and Pods
+
+```yaml
 kubectl create namespace mem-example
 kubectl run buysbox --image=busybox:latest --restart=Never --dry-run -o yaml > busybox.yaml
 ```
 
-```apiVersion: v1
+```yaml
+apiVersion: v1
 kind: Pod
 metadata:
   creationTimestamp: null
@@ -98,9 +98,11 @@ spec:
     args: ["--vm", "1", "--vm-bytes", "150M", "--vm-hang", "1"]
   dnsPolicy: ClusterFirst
   restartPolicy: Never
-status: {}```
+status: {}
+```
 
-```apiVersion: v1
+```yaml
+apiVersion: v1
 kind: Pod
 metadata:
   creationTimestamp: null
@@ -120,7 +122,57 @@ spec:
     args: ["--vm", "1", "--vm-bytes", "150M", "--vm-hang", "1"]
   dnsPolicy: ClusterFirst
   restartPolicy: Never
-status: {}```
+status: {}
+```
 
+```yaml
+kubectl create namespace cpu-example
+kubectl run buysbox --image=busybox:latest --restart=Never --dry-run -o yaml > busybox.yaml
+```
 
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: cpu
+  name: cpu
+spec:
+  containers:
+  - image: vish/stress
+    name: cpu
+    resources:
+      limits:
+        cpu: "1"
+      requests:
+        cpu: "0.5"
+  dnsPolicy: ClusterFirst
+  restartPolicy: Never
+status: {}
+```
 
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: cpu
+  name: cpu
+spec:
+  containers:
+  - image: vish/stress
+    name: cpu
+    resources:
+      limits:
+        cpu: "100"
+      requests:
+        cpu: "100"
+    args:
+    - -cpus
+    - "2"
+  dnsPolicy: ClusterFirst
+  restartPolicy: Never
+status: {}
+```
