@@ -73,11 +73,54 @@ Replace with appropriate shorthand generators.
 
 2. **Assign Memory Resources to Containers and Pods**
 
-*Create the namespace*
-
-```yaml
-kubectl create namespace mem-example
 ```
+kubectl create namespace mem-example
+kubectl run buysbox --image=busybox:latest --restart=Never --dry-run -o yaml > busybox.yaml
+```
+
+```apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: memdemo
+  name: memdemo
+spec:
+  containers:
+  - image: polinux/stress
+    name: memdemo
+    resources:
+      limits:
+         memory: "200Mi"
+      requests:
+         memory: "100Mi"
+    command: ["stress"]
+    args: ["--vm", "1", "--vm-bytes", "150M", "--vm-hang", "1"]
+  dnsPolicy: ClusterFirst
+  restartPolicy: Never
+status: {}```
+
+```apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: memdemo2
+  name: memdemo2
+spec:
+  containers:
+  - image: polinux/stress
+    name: memdemo2
+    resources:
+      limits:
+         memory: "1000Gi"
+      requests:
+         memory: "1000Gi"
+    command: ["stress"]
+    args: ["--vm", "1", "--vm-bytes", "150M", "--vm-hang", "1"]
+  dnsPolicy: ClusterFirst
+  restartPolicy: Never
+status: {}```
 
 
 
