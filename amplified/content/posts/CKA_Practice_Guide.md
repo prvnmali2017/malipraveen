@@ -44,7 +44,7 @@ $minikube start
 ## Chapter-2
 ### Configure Pods and Clusters
 
-1. **Enabling Metrics Server on Minikube**
+#### Enabling Metrics Server on Minikube
 
 ```yaml
 $minikube addons enable metrics-server
@@ -68,7 +68,7 @@ Replace with appropriate shorthand generators.
 * Job: — restart=OnFailure
 * CronJob: — restart=OnFailure — schedule=<some cron expression>
 
-2. **Assign Memory and CPU Resources to Containers and Pods**
+#### Assign Memory and CPU Resources to Containers and Pods
 
 Assign Memory Resources to Containers and Pods
 
@@ -176,7 +176,7 @@ spec:
   restartPolicy: Never
 status: {}
 ```
-3. **QOS Examples**
+#### QOS Examples
 
 ```
 apiVersion: v1
