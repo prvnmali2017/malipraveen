@@ -176,3 +176,56 @@ spec:
   restartPolicy: Never
 status: {}
 ```
+3. **QOS Examples**
+
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: qos-demo
+  namespace: qos-example
+spec:
+  containers:
+  - name: qos-demo-ctr
+    image: nginx
+    resources:
+      limits:
+        memory: "200Mi"
+        cpu: "700m"
+      requests:
+        memory: "200Mi"
+        cpu: "700m"
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: qos-demo2
+  namespace: qos-example
+spec:
+  containers:
+  - name: qos-demo-ctr
+    image: nginx
+    resources:
+      limits:
+        memory: "200Mi"
+        cpu: "700m"
+      requests:
+        memory: "200Mi"
+        cpu: "700m"
+apiVersion: v1
+kind: Pod
+metadata:
+  name: qos-demo-4
+  namespace: qos-example
+spec:
+  containers:
+
+  - name: qos-demo-4-ctr-1
+    image: nginx
+    resources:
+      requests:
+        memory: "200Mi"
+
+  - name: qos-demo-4-ctr-2
+    image: redis
+    ```
