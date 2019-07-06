@@ -40,18 +40,18 @@ $minikube start
 ## Chapter-2
 - Configure Pods and Clusters
 - Enabling Metrics Server on Minikube
-```yaml
+```
 $minikube addons enable metrics-server
 $kubectl get apiservices
 ```
 *Imperative command generator for easy kubectl* 
-```yaml
+```
 POD :
-kubectl run buysbox --image=busybox:latest --restart=Never --dry-run -o yaml > busybox.yaml
+kubectl run buysbox --image=busybox:latest --restart=Never --dry-run -o  > busybox.
 DEPLOYMENT:
-kubectl run buysbox --image=busybox:latest  -o yaml --dry-run > busybox.yaml
+kubectl run buysbox --image=busybox:latest  -o  --dry-run > busybox.
 JOB:
-kubectl run buysbox --image=busybox:latest --restart=OnFailure  --dry-run -o yaml > busybox.yaml
+kubectl run buysbox --image=busybox:latest --restart=OnFailure  --dry-run -o  > busybox.
 ```
 Replace with appropriate shorthand generators.
 * Deployment- Don’t specify the flag
@@ -59,11 +59,11 @@ Replace with appropriate shorthand generators.
 * Job— restart=OnFailure
 * CronJob— restart=OnFailure — schedule=<some cron expression>
 - Assign Memory and CPU Resources to Containers and Pods
-```yaml
-kubectl create namespace mem-example
-kubectl run buysbox --image=busybox:latest --restart=Never --dry-run -o yaml > busybox.yaml
 ```
-```yaml
+kubectl create namespace mem-example
+kubectl run buysbox --image=busybox:latest --restart=Never --dry-run -o  > busybox.
+```
+```
 apiVersion: v1
 kind: Pod
 metadata:
@@ -86,7 +86,7 @@ spec:
   restartPolicy: Never
 status: {}
 ```
-```yaml
+```
 apiVersion: v1
 kind: Pod
 metadata:
@@ -109,11 +109,11 @@ spec:
   restartPolicy: Never
 status: {}
 ```
-  ```yaml
+  ```
 kubectl create namespace cpu-example
-kubectl run buysbox --image=busybox:latest --restart=Never --dry-run -o yaml > busybox.yaml
+kubectl run buysbox --image=busybox:latest --restart=Never --dry-run -o  > busybox.
 ```
-```yaml
+```
 apiVersion: v1
 kind: Pod
 metadata:
@@ -134,7 +134,7 @@ spec:
   restartPolicy: Never
 status: {}
 ```
-  ```yaml
+  ```
 apiVersion: v1
 kind: Pod
 metadata:
@@ -159,7 +159,7 @@ spec:
 status: {}
 ```
 #### QOS Examples 
-```yaml
+```
 apiVersion: v1
 kind: Pod
 metadata:
