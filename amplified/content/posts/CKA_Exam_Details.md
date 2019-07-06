@@ -30,7 +30,6 @@ Feel free to take print if necessary.
 1. Minikube
 2. Katacoda kubernetes playground
 
-
 ### Curriculum
 1. https://github.com/cncf/curriculum
 
@@ -41,17 +40,9 @@ Feel free to take print if necessary.
 4. https://medium.zenika.com/kubernetes-certification-everything-you-need-to-know-to-pass-the-cka-c7ad831dd1ef
 5. https://github.com/dgkanatsios/CKAD-exercises
 6. https://github.com/kubernauts/cka-practice-environment
+7. https://github.com/arush-sal/cka-practice-environment/tree/master/lab/files/questions
+8. https://github.com/stretchcloud/cka-lab-practice
+9. https://kubernetes.io/docs/reference/kubectl/conventions/#generators
 
-
-
-Picked up usefull resource for me (Exercise, Exercise, Exercise!)
-- https://github.com/dgkanatsios/CKAD-exercises
-- https://github.com/arush-sal/cka-practice-environment/tree/master/lab/files/questions
-- https://github.com/stretchcloud/cka-lab-practice
-- https://kubernetes.io/docs/reference/kubectl/conventions/#generators
-
-Import Bookmark list for your browser
-- https://drive.google.com/file/d/1HWXRNyHawuE29VkAzu5Df9Z8txAs8Wbn/view
-
-Reference
-- https://docs.google.com/spreadsheets/d/10NltoF_6y3mBwUzQ4bcQLQfCE1BWSgUDcJXy-Qp2JEU/htmlview#
+### Import Bookmark list for your browser
+1.  https://drive.google.com/file/d/1HWXRNyHawuE29VkAzu5Df9Z8txAs8Wbn/view
