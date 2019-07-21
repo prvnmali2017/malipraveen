@@ -60,3 +60,33 @@ spec:
 ```
 kubectl patch deployment patch-demo --type merge --patch "$(cat patch-file-2.yaml)"
 ```
+
+
+## Kubectl Replication Controller (Rollback and Roll)
+
+```
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: my-nginx-v4
+spec:
+  replicas: 5
+  selector:
+    app: nginx
+    deployment: v4
+  template:
+    metadata:
+      labels:
+        app: nginx
+        deployment: v4
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.9.2
+        args: ["nginx", "-T"]
+        ports:
+        - containerPort: 80
+```
+
+
+
