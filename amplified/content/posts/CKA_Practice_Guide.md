@@ -300,8 +300,9 @@ kubectl expose pod nginx --port=80 --name nginx-service --dry-run -o yaml
 Or
 ```
 kubectl create service nodeport nginx --tcp=80:80 --node-port=30080 --dry-run -o yaml
-```
+```   
 (This will not use the pods labels as selectors)
 
 Both the above commands have their own challenges. While one of it cannot accept a selector the other cannot accept a node port. I would recommend going with the `kubectl expose` command. If you need to specify a node port, generate a definition file using the same command and manually input the nodeport before creating the service.
 
+'.items.status.images'
