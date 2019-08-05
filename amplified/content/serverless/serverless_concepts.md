@@ -12,9 +12,9 @@ series = []
 +++
 
 
-LINK - https://github.com/anaibol/awesome-serverless
+<LINK src="https://github.com/anaibol/awesome-serverless">
 
-<img src="http://i.imgur.com/zq0LJAl.png" align="right" height=300>
+<img src="https://i.imgur.com/zq0LJAl.png" align="right" height=300>
 
 # :cloud: Awesome Serverless
 
