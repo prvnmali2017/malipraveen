@@ -11,13 +11,13 @@ categories = []
 series = []
 +++
 
-###AWS
+### AWS
 1. [AWS Events Asia Pacific] (https://aws.amazon.com/events/explore-aws-events/?events-master-main.sort-by=item.additionalFields.startDateTime&events-master-main.sort-order=asc&awsf.events-master-type=type%23in-person%7Ctype%23virtual%7Ctype%23on-demand&awsf.events-master-location=location%23apac&awsm.page-events-master-main=2)
 
-###AZURE
+### AZURE
 1. [Azure Australia Events] (https://azure.microsoft.com/en-us/community/events/?Country=Australia)
 
 
-###GCP
+### GCP
 
 1. [Google CLoud Events] (https://cloud.google.com/events/#/)
