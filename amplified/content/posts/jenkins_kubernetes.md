@@ -58,24 +58,24 @@ The following sections show sample service definitions.
 
 [VIEW ON GITHUB](https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes/blob/v1/jenkins/k8s/service_jenkins.yaml)
 
----\
+```
  kind: Service\ apiVersion: v1\ metadata:\
  name: jenkins-ui\ namespace: jenkins\ spec:\
  type: NodePort\ selector:\
  app: master\ ports:\
  -  protocol: TCP\ port: 8080\ targetPort: 8080\ name: ui
-
+```
 [jenkins/k8s/service_jenkins.yaml](https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes/blob/v1/jenkins/k8s/service_jenkins.yaml)
 
 [VIEW ON GITHUB](https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes/blob/v1/jenkins/k8s/service_jenkins.yaml)
 
----\
+```
  kind: Service\ apiVersion: v1\ metadata:\
  name: jenkins-discovery\ namespace: jenkins\ spec:\
  selector:\
  app: master\ ports:\
  -  protocol: TCP\ port: 50000\ targetPort: 50000\ name: slaves
-
+```
 ### Creating the Jenkins deployment
 
 Deploy the Jenkins master as a [deployment](http://kubernetes.io/docs/user-guide/deployments) with a [replica count](http://kubernetes.io/docs/user-guide/replication-controller/#multiple-replicas) of 1. This ensures that there is a single Jenkins master running in the cluster at all times. If the Jenkins master pod dies or the node that it is running on shuts down, Kubernetes restarts the pod elsewhere in the cluster.
@@ -118,20 +118,20 @@ Your custom Docker image must install and configure the [Jenkins JNLP slave age
 
 One option is to add `FROM jenkins/jnlp-slave` to your image configuration. For example, if your application build process depends on the Go runtime, you can create the following Dockerfile to extend the existing image with your own dependencies and build artifacts.
 
-`FROM jenkins/jnlp-slave\
+```
+FROM jenkins/jnlp-slave\
 RUN apt-get update && apt-get install -y golang\
-`
+```
 
 Then, build and upload the image to your project's Container Registry repository by running the following commands.
-
+```
 docker build -t gcr.io/[PROJECT]/my-jenkins-image .
-
 gcloud docker -- push gcr.io/[PROJECT]/my-jenkins-image
-
+```
 When creating a pod template, you can now set the **Docker image** field to the following string, where `[PROJECT]` is replaced with your project name and `[IMAGE_NAME]` is replaced with the image name.
-
-`gcr.io/[PROJECT]/[IMAGE_NAME]\
-`
+```
+gcr.io/[PROJECT]/[IMAGE_NAME]\
+```
 
 The above example ensures that the Go language runtime is pre-installed when your Jenkins job starts.
 
