@@ -1,15 +1,15 @@
 +++
-date = "2019-08-09"
-title = "Run Jenkins on Kubernetes Engine (GCE)"
-slug = "Run Jenkins on Kubernetes Engine (GCE)"
+date = "2019-08-08"
+title = "Jenkins on Kubernetes Engine (GCE)"
+slug = ""
 tags = [
-    "AWS",
+    "Kubernetes",
+    "tools",
     "Cloud"
 ]
 categories = []
 series = []
 +++
-
 Jenkins on Kubernetes Engine
 ===========================
 
