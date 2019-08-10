@@ -306,3 +306,6 @@ kubectl create service nodeport nginx --tcp=80:80 --node-port=30080 --dry-run -o
 Both the above commands have their own challenges. While one of it cannot accept a selector the other cannot accept a node port. I would recommend going with the `kubectl expose` command. If you need to specify a node port, generate a definition file using the same command and manually input the nodeport before creating the service.
 
 '.items.status.images'
+
+
+<div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-xAzZ1zDDd4ZzBwZZ-50.gif' border='0' alt='contador de acesso grátis'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=xAzZ1zDDd4ZzBwZZ'></script></div>

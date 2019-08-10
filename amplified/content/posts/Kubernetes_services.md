@@ -279,3 +279,6 @@ To summarize, Kubernetes enables efficient service discovery with its built-in D
 Kubernetes DNS system assigns domain and sub-domain names to pods, ports, and services, which allows them to be discoverable by other components inside your Kubernetes cluster.
 
 DNS-based service discovery is very powerful because you don’t need to hard-code network parameters like IPs and ports into your application. Once a set of pods is managed by a service, you can easily access them using the service’s DNS.
+
+
+<div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-xAzZ1zDDd4ZzBwZZ-50.gif' border='0' alt='contador de acesso grátis'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=xAzZ1zDDd4ZzBwZZ'></script></div>

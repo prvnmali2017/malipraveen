@@ -46,3 +46,6 @@ Feel free to take print if necessary.
 
 ### Import Bookmark list for your browser
 1.  https://drive.google.com/file/d/1HWXRNyHawuE29VkAzu5Df9Z8txAs8Wbn/view
+
+
+<div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-xAzZ1zDDd4ZzBwZZ-50.gif' border='0' alt='contador de acesso grátis'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=xAzZ1zDDd4ZzBwZZ'></script></div>

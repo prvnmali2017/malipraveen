@@ -32,3 +32,6 @@ A set of notes, practice test references to prepare for Certified Kubernetes App
 2. https://kodekloud.com/courses/kubernetes-certification-course/lectures/6743640
 3. https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681
 	
+
+
+<div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-xAzZ1zDDd4ZzBwZZ-50.gif' border='0' alt='contador de acesso grátis'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=xAzZ1zDDd4ZzBwZZ'></script></div>
