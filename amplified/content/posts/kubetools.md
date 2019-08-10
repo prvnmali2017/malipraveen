@@ -50,3 +50,6 @@ Collection of miscellaneous [helper tools](#-tools) and [must-read articles](#-a
 * Great [article](https://medium.com/spire-labs/utilizing-kubernetes-liveness-and-readiness-probes-to-automatically-recover-from-failure-2fe0314f2b2e) about utilizing k8s liveness & readiness probes to automatically recover from failure
 * Great [article](https://docs.bitnami.com/kubernetes/how-to/configure-rbac-in-your-kubernetes-cluster/) about configuring *RBAC*
 * [Pain(less) NGINX Ingress](https://danielfm.me/posts/painless-nginx-ingress.html) - Daniel Martins about Nginx Ingress outages and config reloading
+
+
+<div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-xAzZ1zDDd4ZzBwZZ-50.gif' border='0' alt='contador de acesso grátis'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=xAzZ1zDDd4ZzBwZZ'></script></div>

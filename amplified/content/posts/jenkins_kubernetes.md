@@ -11,8 +11,6 @@ categories = []
 series = []
 +++
 
-<div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-xAzZ1zDDd4ZzBwZZ-50.gif' border='0' alt='contador de acesso grátis'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=xAzZ1zDDd4ZzBwZZ'></script></div>
-
 Jenkins on Kubernetes Engine
 ===========================
 
@@ -147,3 +145,7 @@ For an example Jenkins Pipeline file, see this [GitHub repository](https://gith
 [Kaniko](https://github.com/GoogleContainerTools/kaniko) is another option for users looking to build containers inside their clusters. Kaniko does not require a Docker daemon to be present in order to build and push images to a remote registry.
 
 For an example of using Kaniko in Jenkins, see this [GitHub repository](https://github.com/jenkinsci/kubernetes-plugin/blob/kubernetes-1.14.5/examples/kaniko-declarative.groovy).
+
+
+
+<div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-xAzZ1zDDd4ZzBwZZ-50.gif' border='0' alt='contador de acesso grátis'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=xAzZ1zDDd4ZzBwZZ'></script></div>
