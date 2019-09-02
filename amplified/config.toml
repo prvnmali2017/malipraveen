@@ -121,11 +121,6 @@ disqusShortname = "@praveenmali"
         weight = 7
         url = "/certifications/"
 
-        [[languages.en.menu.main]]
-        name = "Miscellany"
-        weight = 8
-        url = "/miscellany/"
-
 #    [languages.pt-br]
         languagename = "Português"
         title = "João Ninguém"
