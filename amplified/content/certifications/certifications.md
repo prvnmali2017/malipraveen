@@ -1,6 +1,6 @@
 +++
-title = "List of Certs"
-slug = "List of Certs"
+title = "CKA"
+slug = "CKA"
 +++
 
-<embed src="CKA_Certificate.pdf" width="800px" height="2100px" />
+<embed src="certifications/CKA_Certificate.pdf">
