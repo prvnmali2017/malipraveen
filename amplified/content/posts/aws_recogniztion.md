@@ -1,5 +1,5 @@
 +++ 
-date = "2019-08-24"
+date = "2019-09-12"
 title = "AWS Rekognition Demo"
 slug = "AWS Rekognition Demo" 
 tags = [
