@@ -11,9 +11,7 @@ categories = []
 series = []
 +++
 
-
 GitHub Repo - https://github.com/prvnmali2017/devops
-
 
 <p align="center"> 
 <img src="./images/frontpage.jpg">
