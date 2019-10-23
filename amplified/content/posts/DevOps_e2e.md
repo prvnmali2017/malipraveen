@@ -1,5 +1,5 @@
 +++ 
-date = "2019-10-23"
+date = "2019-10-24"
 title = "DevOps End to End, How to do it"
 slug = "DevOps End to End, How to do it" 
 tags = [
